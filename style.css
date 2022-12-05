@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+h2{
+    color: #217074;
+}
 body{
     display: flex;
     justify-content: center;
@@ -9,15 +12,15 @@ body{
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     background: #e7eaef;
-    color: #217074;
     flex-direction: column;
+    color: #e7eaef;
 
 }
 
 h3{
     margin-top: 10px;
     font-size: 30px;
-    width: 600px;
+    width: 200px;
     white-space: nowrap;
     overflow: hidden;
     border-right: 2px solid #000;
@@ -28,8 +31,11 @@ h3{
 @-webkit-keyframes typing{
     from {
         width: 0px;
+        color: orangered;
+
     }
     to{
         width: 620px;
+
     }
 }
