@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    background: #e7eaef;
+    color: #217074;
+    flex-direction: column;
+
+}
+
+h3{
+    margin-top: 10px;
+    font-size: 30px;
+    width: 600px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #000;
+    -webkit-animation: typing 17s steps(39, end), blink-pipe 1s step-end infinite;
+    -moz-animation: typing 17s steps(39, end), blink-pipe 1s step-end infinite;
+}
+
+@-webkit-keyframes typing{
+    from {
+        width: 0px;
+    }
+    to{
+        width: 620px;
+    }
+}
