@@ -17,6 +17,7 @@ body{
 
 }
 
+
 h3{
     margin-top: 10px;
     font-size: 30px;
@@ -26,16 +27,14 @@ h3{
     border-right: 2px solid #000;
     -webkit-animation: typing 17s steps(39, end), blink-pipe 1s step-end infinite;
     -moz-animation: typing 17s steps(39, end), blink-pipe 1s step-end infinite;
-}
 
-@-webkit-keyframes typing{
+}
+@keyframes typing {
     from {
         width: 0px;
         color: orangered;
-
     }
     to{
         width: 620px;
-
     }
 }
